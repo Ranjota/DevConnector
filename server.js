@@ -1,7 +1,11 @@
-// To get a very simple Express serveer Up and Running
+// To get a very simple express server up and Running
 const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
+
+//Connect DataBase
+connectDB();
 
 app.get('/', (req, res)=> res.send('API running'));
 
