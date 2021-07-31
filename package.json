@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "supervisor server"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.3",
     "nodemon": "^2.0.12",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "supervisor": "^0.12.0"
   }
 }
